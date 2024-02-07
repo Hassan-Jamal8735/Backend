@@ -14,9 +14,9 @@ connectDB()
         console.log("error", err);
       })
     );
-  })
+  })  
   .catch((err) => {
-    console.log("the mongodb connection is failed", err);
+    console.log("The mongodb connection is failed", err);
   });
 
 // const app = express();
